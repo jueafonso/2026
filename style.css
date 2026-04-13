@@ -672,3 +672,121 @@ textarea:focus {
   transform: rotate(-1deg);
 }
 
+/* =========================
+   📱 MOBILE FIXES (COLAGEM + GERAL)
+   ========================= */
+
+@media (max-width: 768px) {
+
+  /* HERO */
+  .hero-name h1 {
+    font-size: 2.2rem;
+    letter-spacing: 3px;
+    padding: 0 10px;
+  }
+
+  .date {
+    font-size: 1.2rem;
+  }
+
+  .hero-countdown {
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 0.85rem;
+    padding: 12px 16px;
+  }
+
+  .hero-countdown strong {
+    font-size: 1.1rem;
+  }
+
+  /* TIMELINE */
+  .timeline {
+    padding: 60px 6%;
+  }
+
+  .timeline-card {
+    flex-direction: column;
+  }
+
+  .timeline-image {
+    width: 100%;
+    height: 200px;
+  }
+
+  .timeline-time {
+    text-align: left;
+    padding-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .timeline-item::before,
+  .timeline-dot {
+    display: none;
+  }
+
+  /* INTRO */
+  .intro p {
+    font-size: 0.95rem;
+  }
+
+  /* GIFT SECTIONS */
+  .gift-section,
+  .gift-section.reverse {
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .gift-carousel {
+    width: 100%;
+  }
+
+  .carousel-track img {
+    width: 180px;
+    height: 220px;
+  }
+
+  /* 📸 COLAGEM (IMPORTANTE) */
+  .photo-collage-free {
+    width: 100% !important;
+    height: auto !important;
+    position: relative;
+    padding: 20px 0;
+  }
+
+  .photo-collage-free img {
+    position: relative !important;
+    width: 90% !important;
+    height: auto !important;
+    margin: 10px auto;
+    display: block;
+    transform: none !important;
+  }
+
+  .collage-text {
+    position: static !important;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+  }
+
+  /* GRID (LISTA / OUTROS) */
+  .collage-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .collage-grid img {
+    height: 220px;
+  }
+
+  /* NAV */
+  .main-nav ul {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .main-nav a {
+    font-size: 0.8rem;
+  }
+}
