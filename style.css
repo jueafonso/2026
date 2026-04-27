@@ -890,3 +890,8 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+@media (max-width: 768px) {
+  .hero {
+    background-position: 20% center;
+  }
+}
