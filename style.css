@@ -892,6 +892,6 @@ body {
 
 @media (max-width: 768px) {
   .hero {
-    background-position: center center;
+    background-position: 30% center;
   }
 }
